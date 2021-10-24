@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import {CardItem} from './src/components/Carditem';
 import IconHeart from './assets/icons/IconHeart';
-// import IconPensil from './assets/icons/IconPensil';
+import IconSearch from './assets/icons/IconSearch';
 
 const pizzaData = [
   {
@@ -110,13 +110,13 @@ const SectionPisa = () => {
           <TouchableOpacity
             style={styles.iconContainer}
             onPress={() => setText(product)}>
-            <IconHeart
+            {/* <IconSearch
               colorFill={'red'}
               colorStroke={'red'}
               width={'22'}
               height={'22'}
-            />
-            {/* <IconPensil /> */}
+            /> */}
+            <IconSearch />
           </TouchableOpacity>
         </View>
         {text !== '' && <Text style={{marginTop: 0}}>... пошук по {text}</Text>}
