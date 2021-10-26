@@ -95,7 +95,7 @@ const SectionPisa = () => {
     <SafeAreaView style={{flex: 1}}>
       <StatusBar backgroundColor="#FFF" barStyle={'dark-content'} />
       <ScrollView style={styles.container}>
-        <Text style={styles.title}>Магазин піц</Text>
+        <Text style={styles.title}>Магазин піц555****</Text>
         <Text style={styles.textDes}>
           Якийсь опис {'\n'}довжиною в 2-а рядки
         </Text>
@@ -153,13 +153,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: '700',
-    // textAlign: 'center',
+    // textAlign: 'cen',
     color: 'red',
   },
   textDes: {
     marginTop: 15,
     fontSize: 16,
-    color: 'grey',
+    color: 'red',
   },
   imgContainer: {
     display: 'flex',
