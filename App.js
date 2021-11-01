@@ -95,7 +95,7 @@ const SectionPisa = () => {
     <SafeAreaView style={{flex: 1}}>
       <StatusBar backgroundColor="#FFF" barStyle={'dark-content'} />
       <ScrollView style={styles.container}>
-        <Text style={styles.title}>Магазин піц555****</Text>
+        <Text style={styles.title}>Магазин піц "Roma"</Text>
         <Text style={styles.textDes}>
           Якийсь опис {'\n'}довжиною в 2-а рядки
         </Text>
@@ -110,24 +110,19 @@ const SectionPisa = () => {
           <TouchableOpacity
             style={styles.iconContainer}
             onPress={() => setText(product)}>
-            {/* <IconSearch
+            <IconSearch
               colorFill={'red'}
               colorStroke={'red'}
-              width={'22'}
-              height={'22'}
-            /> */}
-            <IconSearch />
+              width={'80'}
+              height={'80'}
+            />
+            {/* <IconSearch /> */}
           </TouchableOpacity>
         </View>
         {text !== '' && <Text style={{marginTop: 0}}>... пошук по {text}</Text>}
         <View style={styles.imgContainer}>
-          {pizzaData.map((pizza: {...}, index: number) => (
-            <CardItem
-              key={index}
-              text={pizza.name}
-              img={pizza.image}
-              price={pizza.price}
-            />
+          {pizzaData.map((pizza, index) => (
+            <CardItem key={index} pizza={pizza} />
           ))}
         </View>
         <TouchableOpacity style={styles.orderButton}>
@@ -153,7 +148,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: '700',
-    // textAlign: 'cen',
+    textAlign: 'center',
     color: 'red',
   },
   textDes: {
@@ -194,6 +189,7 @@ const styles = StyleSheet.create({
     borderColor: 'orange',
   },
   iconContainer: {
+    alignItems: 'center',
     position: 'absolute',
     top: 20,
     right: 15,

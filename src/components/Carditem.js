@@ -1,14 +1,15 @@
 import React from 'react';
 import {StyleSheet, Image, Text, TouchableOpacity, Alert} from 'react-native';
 
-export const CardItem = ({text, img, price}) => {
+// export const CardItem = ({text, img, price}) => {
+export const CardItem = ({pizza}) => {
   return (
     <TouchableOpacity
       onPress={() => Alert.alert('Ви вибрали', text)}
       style={styles.btn}>
-      <Image style={styles.image} source={{uri: img}} />
-      <Text>{text}</Text>
-      <Text>{price} </Text>
+      <Image style={styles.image} source={{uri: pizza.image}} />
+      <Text>{pizza.name}</Text>
+      <Text>{pizza.price} </Text>
     </TouchableOpacity>
   );
 };
