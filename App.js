@@ -90,12 +90,26 @@ const pizzaData = [
 const SectionPisa = () => {
   const [product, setProduct] = useState('');
   const [text, setText] = useState('');
+  const hi = () => {
+    return <Text>***/ Рендер функції-Hi /***</Text>;
+  };
+  const returnCardItem = ({pizza}) => {
+    return (
+      <TouchableOpacity
+        onPress={() => Alert.alert('Ви вибрали', text)}
+        style={styles.btn}>
+        <Image style={styles.image} source={{uri: pizza.image}} />
+        <Text>{pizza.name}</Text>
+        <Text>{pizza.price} </Text>
+      </TouchableOpacity>
+    );
+  };
   return (
     // <SafeAreaView style={styles.container}>
     <SafeAreaView style={{flex: 1}}>
       <StatusBar backgroundColor="#FFF" barStyle={'dark-content'} />
       <ScrollView style={styles.container}>
-        <Text style={styles.title}>Магазин піц "Roma"</Text>
+        <Text style={styles.title}>Магазин піц "Roma+"</Text>
         <Text style={styles.textDes}>
           Якийсь опис {'\n'}довжиною в 2-а рядки
         </Text>
@@ -116,7 +130,6 @@ const SectionPisa = () => {
               width={'80'}
               height={'80'}
             />
-            {/* <IconSearch /> */}
           </TouchableOpacity>
         </View>
         {text !== '' && <Text style={{marginTop: 0}}>... пошук по {text}</Text>}
@@ -124,6 +137,7 @@ const SectionPisa = () => {
           {pizzaData.map((pizza, index) => (
             <CardItem key={index} pizza={pizza} />
           ))}
+          {hi()}
         </View>
         <TouchableOpacity style={styles.orderButton}>
           <Text style={styles.buttonText}>Замовити</Text>
