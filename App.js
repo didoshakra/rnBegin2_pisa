@@ -93,19 +93,8 @@ const SectionPisa = () => {
   const hi = () => {
     return <Text>***/ Рендер функції-Hi /***</Text>;
   };
-  const returnCardItem = ({pizza}) => {
-    return (
-      <TouchableOpacity
-        onPress={() => Alert.alert('Ви вибрали', text)}
-        style={styles.btn}>
-        <Image style={styles.image} source={{uri: pizza.image}} />
-        <Text>{pizza.name}</Text>
-        <Text>{pizza.price} </Text>
-      </TouchableOpacity>
-    );
-  };
+
   return (
-    // <SafeAreaView style={styles.container}>
     <SafeAreaView style={{flex: 1}}>
       <StatusBar backgroundColor="#FFF" barStyle={'dark-content'} />
       <ScrollView style={styles.container}>
