@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface rnBegin2_pissaTests : XCTestCase
+@interface rn_begin2_pisaTests : XCTestCase
 
 @end
 
-@implementation rnBegin2_pissaTests
+@implementation rn_begin2_pisaTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

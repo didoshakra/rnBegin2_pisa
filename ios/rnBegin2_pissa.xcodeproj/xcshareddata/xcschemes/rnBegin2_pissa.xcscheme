@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "rnBegin2_pissa.app"
-               BlueprintName = "rnBegin2_pissa"
-               ReferencedContainer = "container:rnBegin2_pissa.xcodeproj">
+               BuildableName = "rn_begin2_pisa.app"
+               BlueprintName = "rn_begin2_pisa"
+               ReferencedContainer = "container:rn_begin2_pisa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "rnBegin2_pissaTests.xctest"
-               BlueprintName = "rnBegin2_pissaTests"
-               ReferencedContainer = "container:rnBegin2_pissa.xcodeproj">
+               BuildableName = "rn_begin2_pisaTests.xctest"
+               BlueprintName = "rn_begin2_pisaTests"
+               ReferencedContainer = "container:rn_begin2_pisa.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "rnBegin2_pissa.app"
-            BlueprintName = "rnBegin2_pissa"
-            ReferencedContainer = "container:rnBegin2_pissa.xcodeproj">
+            BuildableName = "rn_begin2_pisa.app"
+            BlueprintName = "rn_begin2_pisa"
+            ReferencedContainer = "container:rn_begin2_pisa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "rnBegin2_pissa.app"
-            BlueprintName = "rnBegin2_pissa"
-            ReferencedContainer = "container:rnBegin2_pissa.xcodeproj">
+            BuildableName = "rn_begin2_pisa.app"
+            BlueprintName = "rn_begin2_pisa"
+            ReferencedContainer = "container:rn_begin2_pisa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -33,7 +33,7 @@ static void InitializeFlipper(UIApplication *application) {
 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
-                                                   moduleName:@"rnBegin2_pissa"
+                                                   moduleName:@"rn_begin2_pisa"
                                             initialProperties:nil];
 
   if (@available(iOS 13.0, *)) {

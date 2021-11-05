@@ -1,4 +1,4 @@
-package com.rnbegin2_pissa;
+package com.rn_begin2_pisa;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "rn-begin2_pissa";
+    return "rn_begin2_pisa";
   }
 }

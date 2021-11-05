@@ -11,7 +11,6 @@ import {
   TextInput,
 } from 'react-native';
 import {CardItem} from './src/components/Carditem';
-import IconHeart from './assets/icons/IconHeart';
 import IconSearch from './assets/icons/IconSearch';
 
 const pizzaData = [

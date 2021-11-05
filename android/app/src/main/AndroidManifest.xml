@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.rnbegin2_pissa">
+  package="com.rn_begin2_pisa">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
